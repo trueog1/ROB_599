@@ -37,7 +37,7 @@ class PathPlan(Node):
         self.inflate_grid = np.zeros((self.grid_x, self.grid_y))
         self.array = np.zeros((self.grid_x, self.grid_y))
         self.start = (0, 0)
-        self.goal = (6, 0)
+        self.goal = (1, 0.5)
         self.waypoints = []
 
         self.msg = OccupancyGrid()
@@ -85,7 +85,7 @@ class PathPlan(Node):
         self.array[:] = array
         boolean_arr = (array > 90)
         
-        radius = 2
+        radius = 1
         kernel_size = 2 * radius + 1
         # Elliptical shape creates a circle when width == height
         circular_kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (kernel_size, kernel_size))
