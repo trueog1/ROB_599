@@ -1,0 +1,32 @@
+running develop
+Removing /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3.egg-link (link to .)
+running egg_info
+writing build/hw3/hw3.egg-info/PKG-INFO
+writing dependency_links to build/hw3/hw3.egg-info/dependency_links.txt
+writing entry points to build/hw3/hw3.egg-info/entry_points.txt
+writing requirements to build/hw3/hw3.egg-info/requires.txt
+writing top-level names to build/hw3/hw3.egg-info/top_level.txt
+reading manifest file 'build/hw3/hw3.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/hw3/hw3.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hw3/hw3_controller.py -> /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/build/lib/hw3
+running install
+running install_lib
+creating /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3
+copying /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/build/lib/hw3/hw3_controller.py -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3
+copying /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/build/lib/hw3/mapping.py -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3
+copying /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/build/lib/hw3/__init__.py -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3
+byte-compiling /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3/hw3_controller.py to hw3_controller.cpython-312.pyc
+byte-compiling /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3/mapping.py to mapping.cpython-312.pyc
+byte-compiling /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/hw3 -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/share/ament_index/resource_index/packages
+copying package.xml -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/share/hw3
+running install_egg_info
+Copying build/hw3/hw3.egg-info to /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hw3_controller script to /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/hw3
+Installing map script to /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/hw3
+writing list of installed files to '/home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/install.log'

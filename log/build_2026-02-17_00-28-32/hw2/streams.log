@@ -1,0 +1,77 @@
+[1.285s] Invoking command in '/home/trueog/ros2_ws_ROB599/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/trueog/ros2_ws_ROB599/build/hw2/build install --record /home/trueog/ros2_ws_ROB599/build/hw2/install.log --single-version-externally-managed install_data
+[1.555s] running egg_info
+[1.555s] creating ../../build/hw2/hw2.egg-info
+[1.572s] writing ../../build/hw2/hw2.egg-info/PKG-INFO
+[1.573s] writing dependency_links to ../../build/hw2/hw2.egg-info/dependency_links.txt
+[1.573s] writing entry points to ../../build/hw2/hw2.egg-info/entry_points.txt
+[1.573s] writing requirements to ../../build/hw2/hw2.egg-info/requires.txt
+[1.573s] writing top-level names to ../../build/hw2/hw2.egg-info/top_level.txt
+[1.573s] writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.606s] reading manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.606s] adding license file 'LICENSE'
+[1.607s] writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.607s] running build
+[1.607s] running build_py
+[1.607s] creating /home/trueog/ros2_ws_ROB599/build/hw2/build
+[1.609s] creating /home/trueog/ros2_ws_ROB599/build/hw2/build/lib
+[1.609s] creating /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+[1.609s] copying hw2/obstacle_avoidance.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+[1.609s] copying hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+[1.609s] copying hw2/test.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+[1.611s] copying hw2/__init__.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+[1.611s] copying hw2/apf_failed.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+[1.611s] running install
+[1.620s] running install_lib
+[1.647s] creating /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+[1.647s] copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/obstacle_avoidance.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+[1.647s] copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+[1.647s] copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/test.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+[1.647s] copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/__init__.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+[1.647s] copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/apf_failed.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+[1.647s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/obstacle_avoidance.py to obstacle_avoidance.cpython-312.pyc
+[1.653s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/hw2_controller.py to hw2_controller.cpython-312.pyc
+[1.653s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/test.py to test.cpython-312.pyc
+[1.654s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/__init__.py to __init__.cpython-312.pyc
+[1.654s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/apf_failed.py to apf_failed.cpython-312.pyc
+[1.654s] running install_data
+[1.654s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index
+[1.654s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index/resource_index
+[1.654s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index/resource_index/packages
+[1.655s] copying resource/hw2 -> /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index/resource_index/packages
+[1.655s] copying package.xml -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2
+[1.655s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/launch
+[1.655s] copying launch/hw2_stage.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/launch
+[1.655s] copying launch/controller.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/launch
+[1.655s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config
+[1.655s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+[1.657s] copying config/rviz/robot_ns.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+[1.657s] copying config/rviz/open.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+[1.657s] copying config/rviz/simple_inside.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+[1.657s] copying config/rviz/robot0.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+[1.657s] copying config/rviz/robot_ns_depth.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+[1.657s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] copying world/open_j.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] copying world/building_world.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] copying world/simple_inside.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] copying world/hexagon.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] copying world/open.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] copying world/open_world.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+[1.657s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+[1.658s] copying world/include/robots.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+[1.658s] copying world/include/map.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+[1.659s] copying world/include/pioneer2dx.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+[1.659s] copying world/include/box.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+[1.659s] creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.659s] copying world/bitmaps/open_world.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.659s] copying world/bitmaps/open.PNG -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.660s] copying world/bitmaps/Basic.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.663s] copying world/bitmaps/building_world.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.663s] copying world/bitmaps/Hexagon.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.664s] copying world/bitmaps/simple_inside.PNG -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+[1.665s] running install_egg_info
+[1.695s] Copying ../../build/hw2/hw2.egg-info to /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info
+[1.695s] running install_scripts
+[1.835s] Installing apf script to /home/trueog/ros2_ws_ROB599/install/hw2/lib/hw2
+[1.839s] Installing basic_controller script to /home/trueog/ros2_ws_ROB599/install/hw2/lib/hw2
+[1.839s] writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/hw2/install.log'
+[1.876s] Invoked command in '/home/trueog/ros2_ws_ROB599/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/trueog/ros2_ws_ROB599/build/hw2/build install --record /home/trueog/ros2_ws_ROB599/build/hw2/install.log --single-version-externally-managed install_data

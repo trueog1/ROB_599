@@ -1,0 +1,55 @@
+[0.742s] Invoking command in '/home/trueog/ros2_ws_ROB599/src/hw3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/trueog/ros2_ws_ROB599/build/hw3/build install --record /home/trueog/ros2_ws_ROB599/build/hw3/install.log --single-version-externally-managed install_data
+[0.979s] running egg_info
+[1.000s] writing ../../build/hw3/hw3.egg-info/PKG-INFO
+[1.001s] writing dependency_links to ../../build/hw3/hw3.egg-info/dependency_links.txt
+[1.001s] writing entry points to ../../build/hw3/hw3.egg-info/entry_points.txt
+[1.001s] writing requirements to ../../build/hw3/hw3.egg-info/requires.txt
+[1.001s] writing top-level names to ../../build/hw3/hw3.egg-info/top_level.txt
+[1.033s] reading manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[1.033s] adding license file 'LICENSE'
+[1.034s] writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[1.034s] running build
+[1.034s] running build_py
+[1.035s] running install
+[1.041s] running install_lib
+[1.061s] running install_data
+[1.062s] creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+[1.062s] copying launch/controller3.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+[1.062s] copying launch/hw3_stage.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+[1.062s] copying launch/pathplan.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+[1.063s] copying launch/map.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+[1.063s] creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config
+[1.064s] creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+[1.064s] copying config/rviz/robot_ns.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+[1.064s] copying config/rviz/open.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+[1.064s] copying config/rviz/simple_inside.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+[1.064s] copying config/rviz/robot0.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+[1.064s] copying config/rviz/robot_ns_depth.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+[1.064s] creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] copying world/open_j.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] copying world/building_world.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] copying world/simple_inside.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] copying world/hexagon.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] copying world/open.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] copying world/open_world.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+[1.064s] creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+[1.064s] copying world/include/robots.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+[1.064s] copying world/include/map.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+[1.065s] copying world/include/pioneer2dx.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+[1.065s] copying world/include/box.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+[1.065s] creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] copying world/bitmaps/open_world.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] copying world/bitmaps/open.PNG -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] copying world/bitmaps/Basic.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] copying world/bitmaps/building_world.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] copying world/bitmaps/Hexagon.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] copying world/bitmaps/simple_inside.PNG -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+[1.065s] running install_egg_info
+[1.083s] removing '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info' (and everything under it)
+[1.085s] Copying ../../build/hw3/hw3.egg-info to /home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info
+[1.085s] running install_scripts
+[1.204s] Installing hw3_controller script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+[1.204s] Installing map script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+[1.204s] Installing path script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+[1.205s] writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/hw3/install.log'
+[1.229s] Invoked command in '/home/trueog/ros2_ws_ROB599/src/hw3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/trueog/ros2_ws_ROB599/build/hw3/build install --record /home/trueog/ros2_ws_ROB599/build/hw3/install.log --single-version-externally-managed install_data

@@ -1,0 +1,67 @@
+[ 71%] Built target stage_node
+[100%] Built target stage_ros2
+-- Install configuration: ""
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/open.launch .py
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/straden.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/hallway.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/lines.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/open.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/open.PNG
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/include
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/open.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/libstage_node.so
+-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/libstage_node.so" to ""
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/stage_ros2/stage_ros2
+-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/path.sh
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/path.dsv
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.bash
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.sh
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.zsh
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.dsv
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/package.dsv
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+-- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/package.xml

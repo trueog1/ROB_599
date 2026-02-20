@@ -1,0 +1,3 @@
+[console_scripts]
+hw3_controller = hw3.hw3_controller:main
+map = hw3.mapping:main

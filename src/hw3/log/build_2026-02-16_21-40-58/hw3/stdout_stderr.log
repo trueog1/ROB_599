@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing hw3.egg-info/PKG-INFO
+writing dependency_links to hw3.egg-info/dependency_links.txt
+writing entry points to hw3.egg-info/entry_points.txt
+writing requirements to hw3.egg-info/requires.txt
+writing top-level names to hw3.egg-info/top_level.txt
+reading manifest file 'hw3.egg-info/SOURCES.txt'
+writing manifest file 'hw3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/python3.12/site-packages/hw3.egg-link (link to .)
+Installing hw3_controller script to /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/hw3
+Installing map script to /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/lib/hw3
+
+Installed /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3
+running symlink_data
+symbolically linking /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/resource/hw3 -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/share/ament_index/resource_index/packages
+symbolically linking /home/trueog/ros2_ws_ROB599/src/hw3/build/hw3/package.xml -> /home/trueog/ros2_ws_ROB599/src/hw3/install/hw3/share/hw3

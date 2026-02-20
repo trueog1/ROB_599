@@ -1,0 +1,29 @@
+[0.738s] Invoking command in '/home/trueog/ros2_ws_ROB599/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/hw2 build --build-base /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build install --record /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/install.log --single-version-externally-managed install_data
+[0.962s] running egg_info
+[0.978s] writing build/hw2/hw2.egg-info/PKG-INFO
+[0.979s] writing dependency_links to build/hw2/hw2.egg-info/dependency_links.txt
+[0.979s] writing entry points to build/hw2/hw2.egg-info/entry_points.txt
+[0.979s] writing requirements to build/hw2/hw2.egg-info/requires.txt
+[0.979s] writing top-level names to build/hw2/hw2.egg-info/top_level.txt
+[1.016s] reading manifest file 'build/hw2/hw2.egg-info/SOURCES.txt'
+[1.016s] adding license file 'LICENSE'
+[1.016s] writing manifest file 'build/hw2/hw2.egg-info/SOURCES.txt'
+[1.016s] running build
+[1.017s] running build_py
+[1.017s] copying hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2
+[1.017s] copying hw2/test.py -> /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2
+[1.017s] running install
+[1.023s] running install_lib
+[1.043s] copying /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2
+[1.043s] copying /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2/test.py -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2
+[1.044s] byte-compiling /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2/hw2_controller.py to hw2_controller.cpython-312.pyc
+[1.045s] byte-compiling /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2/test.py to test.cpython-312.pyc
+[1.046s] running install_data
+[1.046s] copying package.xml -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/share/hw2
+[1.046s] running install_egg_info
+[1.064s] removing '/home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info' (and everything under it)
+[1.064s] Copying build/hw2/hw2.egg-info to /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info
+[1.066s] running install_scripts
+[1.178s] Installing basic_controller script to /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/hw2
+[1.178s] writing list of installed files to '/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/install.log'
+[1.210s] Invoked command in '/home/trueog/ros2_ws_ROB599/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/hw2 build --build-base /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build install --record /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5665476c9a8cecde3f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stage_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stage_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stage_node-dfe9af0be9fd1c8cc2af.json",
+					"name" : "stage_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stage_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stage_ros2-dc3dae3e0fff10028bcc.json",
+					"name" : "stage_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stage_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stage_ros2_uninstall-292edf0e8b5668930d5f.json",
+					"name" : "stage_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b5ef251daadcb87f872.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/trueog/ros2_ws_ROB599/build/stage_ros2",
+		"source" : "/home/trueog/ros2_ws_ROB599/src/stage_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

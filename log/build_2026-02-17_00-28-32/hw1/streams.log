@@ -1,0 +1,40 @@
+[1.294s] Invoking command in '/home/trueog/ros2_ws_ROB599/src/hw1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw1 build --build-base /home/trueog/ros2_ws_ROB599/build/hw1/build install --record /home/trueog/ros2_ws_ROB599/build/hw1/install.log --single-version-externally-managed install_data
+[1.557s] running egg_info
+[1.557s] creating ../../build/hw1/hw1.egg-info
+[1.575s] writing ../../build/hw1/hw1.egg-info/PKG-INFO
+[1.576s] writing dependency_links to ../../build/hw1/hw1.egg-info/dependency_links.txt
+[1.577s] writing entry points to ../../build/hw1/hw1.egg-info/entry_points.txt
+[1.577s] writing requirements to ../../build/hw1/hw1.egg-info/requires.txt
+[1.578s] writing top-level names to ../../build/hw1/hw1.egg-info/top_level.txt
+[1.580s] writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[1.613s] reading manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[1.614s] adding license file 'LICENSE'
+[1.614s] writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[1.614s] running build
+[1.615s] running build_py
+[1.616s] creating /home/trueog/ros2_ws_ROB599/build/hw1/build
+[1.616s] creating /home/trueog/ros2_ws_ROB599/build/hw1/build/lib
+[1.616s] creating /home/trueog/ros2_ws_ROB599/build/hw1/build/lib/hw1
+[1.616s] copying hw1/hw1_code.py -> /home/trueog/ros2_ws_ROB599/build/hw1/build/lib/hw1
+[1.617s] copying hw1/__init__.py -> /home/trueog/ros2_ws_ROB599/build/hw1/build/lib/hw1
+[1.617s] running install
+[1.626s] running install_lib
+[1.657s] creating /home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages/hw1
+[1.657s] copying /home/trueog/ros2_ws_ROB599/build/hw1/build/lib/hw1/hw1_code.py -> /home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages/hw1
+[1.657s] copying /home/trueog/ros2_ws_ROB599/build/hw1/build/lib/hw1/__init__.py -> /home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages/hw1
+[1.658s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages/hw1/hw1_code.py to hw1_code.cpython-312.pyc
+[1.659s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages/hw1/__init__.py to __init__.cpython-312.pyc
+[1.659s] running install_data
+[1.659s] creating /home/trueog/ros2_ws_ROB599/install/hw1/share/ament_index
+[1.659s] creating /home/trueog/ros2_ws_ROB599/install/hw1/share/ament_index/resource_index
+[1.659s] creating /home/trueog/ros2_ws_ROB599/install/hw1/share/ament_index/resource_index/packages
+[1.659s] copying resource/hw1 -> /home/trueog/ros2_ws_ROB599/install/hw1/share/ament_index/resource_index/packages
+[1.660s] copying package.xml -> /home/trueog/ros2_ws_ROB599/install/hw1/share/hw1
+[1.660s] creating /home/trueog/ros2_ws_ROB599/install/hw1/share/hw1/launch
+[1.660s] copying launch/hw1_launch.py -> /home/trueog/ros2_ws_ROB599/install/hw1/share/hw1/launch
+[1.660s] running install_egg_info
+[1.687s] Copying ../../build/hw1/hw1.egg-info to /home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages/hw1-0.0.0-py3.12.egg-info
+[1.688s] running install_scripts
+[1.824s] Installing move_node script to /home/trueog/ros2_ws_ROB599/install/hw1/lib/hw1
+[1.825s] writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/hw1/install.log'
+[1.890s] Invoked command in '/home/trueog/ros2_ws_ROB599/src/hw1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw1 build --build-base /home/trueog/ros2_ws_ROB599/build/hw1/build install --record /home/trueog/ros2_ws_ROB599/build/hw1/install.log --single-version-externally-managed install_data

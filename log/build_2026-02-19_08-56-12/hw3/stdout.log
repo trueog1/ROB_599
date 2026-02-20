@@ -1,0 +1,53 @@
+running egg_info
+writing ../../build/hw3/hw3.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw3/hw3.egg-info/dependency_links.txt
+writing entry points to ../../build/hw3/hw3.egg-info/entry_points.txt
+writing requirements to ../../build/hw3/hw3.egg-info/requires.txt
+writing top-level names to ../../build/hw3/hw3.egg-info/top_level.txt
+reading manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+copying launch/controller3.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+copying launch/hw3_stage.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+copying launch/pathplan.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+copying launch/map.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/launch
+creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config
+creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+copying config/rviz/robot_ns.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+copying config/rviz/open.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+copying config/rviz/simple_inside.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+copying config/rviz/robot0.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+copying config/rviz/robot_ns_depth.rviz -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/config/rviz
+creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+copying world/open_j.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+copying world/building_world.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+copying world/simple_inside.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+copying world/hexagon.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+copying world/open.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+copying world/open_world.world -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world
+creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+copying world/include/robots.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+copying world/include/map.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+copying world/include/pioneer2dx.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+copying world/include/box.inc -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/include
+creating /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+copying world/bitmaps/open_world.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+copying world/bitmaps/open.PNG -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+copying world/bitmaps/Basic.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+copying world/bitmaps/building_world.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+copying world/bitmaps/Hexagon.png -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+copying world/bitmaps/simple_inside.PNG -> /home/trueog/ros2_ws_ROB599/install/hw3/share/hw3/world/bitmaps
+running install_egg_info
+removing '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/hw3/hw3.egg-info to /home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hw3_controller script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+Installing map script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+Installing path script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/hw3/install.log'

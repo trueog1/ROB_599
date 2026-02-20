@@ -1,0 +1,980 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000231] (rclpy) JobQueued: {'identifier': 'rclpy', 'dependencies': OrderedDict()}
+[0.000245] (stage) JobQueued: {'identifier': 'stage', 'dependencies': OrderedDict()}
+[0.000257] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict({'rclpy': '/home/trueog/ros2_ws_ROB599/install/rclpy'})}
+[0.000271] (hw2) JobQueued: {'identifier': 'hw2', 'dependencies': OrderedDict({'rclpy': '/home/trueog/ros2_ws_ROB599/install/rclpy'})}
+[0.000283] (hw3) JobQueued: {'identifier': 'hw3', 'dependencies': OrderedDict({'rclpy': '/home/trueog/ros2_ws_ROB599/install/rclpy'})}
+[0.000294] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict({'stage': '/home/trueog/ros2_ws_ROB599/install/stage'})}
+[0.000306] (rclpy) JobStarted: {'identifier': 'rclpy'}
+[0.006377] (stage) JobStarted: {'identifier': 'stage'}
+[0.009894] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.017191] (rclpy) JobProgress: {'identifier': 'rclpy', 'progress': 'cmake'}
+[0.018313] (rclpy) Command: {'cmd': ['/usr/bin/cmake', '/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy', '-DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/rclpy'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/rclpy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/rclpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted'}), 'shell': False}
+[0.021575] (stage) JobProgress: {'identifier': 'stage', 'progress': 'cmake'}
+[0.022553] (stage) Command: {'cmd': ['/usr/bin/cmake', '/home/trueog/ros2_ws_ROB599/src/Stage', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/stage', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/stage', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}), 'shell': False}
+[0.100802] (-) TimerEvent: {}
+[0.147537] (stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.147852] (rclpy) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200864] (-) TimerEvent: {}
+[0.207860] (rclpy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.208084] (stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.234223] (rclpy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.235904] (stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301021] (-) TimerEvent: {}
+[0.338017] (stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.339979] (rclpy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.351669] (stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.352644] (stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.353138] (rclpy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.353511] (rclpy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.353888] (rclpy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.354012] (stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.366830] (rclpy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.367320] (stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401805] (-) TimerEvent: {}
+[0.475890] (stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.488334] (rclpy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.495197] (stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.495423] (stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.495540] (stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.495839] (stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[0.496072] (stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.496201] (stage) StdoutLine: {'line': b'-- Installing Libraries to /home/trueog/ros2_ws_ROB599/install/stage/lib\n'}
+[0.496294] (stage) StdoutLine: {'line': b'-- Installing Plugins to /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3\n'}
+[0.496906] (stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[0.497093] (stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[0.502080] (-) TimerEvent: {}
+[0.503908] (rclpy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.504199] (rclpy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.504476] (stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[0.506249] (rclpy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.524445] (stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[0.529286] (rclpy) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.539708] (stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[0.565832] (stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[0.572644] (stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.602221] (-) TimerEvent: {}
+[0.702540] (-) TimerEvent: {}
+[0.705365] (rclpy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.727250] (stage) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.729011] (stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.802728] (-) TimerEvent: {}
+[0.823065] (stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.823251] (stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.855839] (rclpy) StdoutLine: {'line': b'-- Found lifecycle_msgs: 2.3.0 (/opt/ros/kilted/share/lifecycle_msgs/cmake)\n'}
+[0.867443] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/trueog/ros2_ws_ROB599/build/py_pubsub/build', 'install', '--record', '/home/trueog/ros2_ws_ROB599/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/trueog/ros2_ws_ROB599/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[0.903851] (-) TimerEvent: {}
+[0.915847] (stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.916092] (stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.935263] (rclpy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.957957] (rclpy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[0.992049] (rclpy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004878] (-) TimerEvent: {}
+[1.018566] (stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.018854] (stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.023806] (rclpy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.104737] (rclpy) StdoutLine: {'line': b'-- Found rcl: 10.1.3 (/opt/ros/kilted/share/rcl/cmake)\n'}
+[1.104937] (-) TimerEvent: {}
+[1.110805] (stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.110991] (stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.168822] (rclpy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[1.172015] (rclpy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.174396] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.174957] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[1.193628] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.193827] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.194239] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.194336] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.194390] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.202935] (stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.203109] (stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.205021] (-) TimerEvent: {}
+[1.251598] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.251821] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.252384] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.252629] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.252684] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.254628] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/build/py_pubsub/build\n'}
+[1.254720] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib\n'}
+[1.254767] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.254842] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.254889] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.259044] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.277157] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[1.277345] (py_pubsub) StdoutLine: {'line': b'copying /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[1.277727] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc\n'}
+[1.277987] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.278992] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index\n'}
+[1.279064] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index/resource_index\n'}
+[1.279112] (py_pubsub) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.279243] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.279300] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/py_pubsub\n'}
+[1.279348] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.297263] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[1.298099] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.307990] (-) TimerEvent: {}
+[1.310000] (stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.313145] (rclpy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.329973] (rclpy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.353669] (stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;fltk  \n'}
+[1.355388] (stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[1.356667] (stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage\n'}
+[1.357360] (stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[1.365009] (stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[1.365985] (stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[1.370767] (rclpy) StdoutLine: {'line': b'-- Found rcl_action: 10.1.3 (/opt/ros/kilted/share/rcl_action/cmake)\n'}
+[1.408105] (-) TimerEvent: {}
+[1.428541] (rclpy) StdoutLine: {'line': b'-- Found rcl_lifecycle: 10.1.3 (/opt/ros/kilted/share/rcl_lifecycle/cmake)\n'}
+[1.442930] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/py_pubsub/install.log'\n"}
+[1.456226] (stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[1.471560] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.474911] (stage) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.479149] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.510299] (-) TimerEvent: {}
+[1.529575] (stage) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.530700] (stage) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.530878] (stage) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.530929] (stage) StderrLine: {'line': b'\n'}
+[1.530980] (stage) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.531026] (stage) StderrLine: {'line': b'\n'}
+[1.531072] (stage) StderrLine: {'line': b'\x1b[0m\n'}
+[1.534147] (stage) StdoutLine: {'line': b'-- Build files have been written to: /home/trueog/ros2_ws_ROB599/build/stage\n'}
+[1.542922] (stage) CommandEnded: {'returncode': 0}
+[1.543208] (stage) JobProgress: {'identifier': 'stage', 'progress': 'build'}
+[1.544000] (stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/trueog/ros2_ws_ROB599/build/stage', '--', '-j4', '-l4'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/stage', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/stage', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}), 'shell': False}
+[1.596869] (stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[1.597066] (stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[1.599554] (stage) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[1.606933] (stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[1.610815] (-) TimerEvent: {}
+[1.711982] (-) TimerEvent: {}
+[1.809131] (rclpy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed \n'}
+[1.812190] (-) TimerEvent: {}
+[1.905038] (rclpy) StdoutLine: {'line': b'-- Performing Test HAS_FLTO\n'}
+[1.912339] (-) TimerEvent: {}
+[2.013054] (-) TimerEvent: {}
+[2.119368] (-) TimerEvent: {}
+[2.219732] (-) TimerEvent: {}
+[2.259939] (rclpy) StdoutLine: {'line': b'-- Performing Test HAS_FLTO - Success\n'}
+[2.260174] (rclpy) StdoutLine: {'line': b'-- Found pybind11: /usr/include (found version "2.11.1")\n'}
+[2.319889] (-) TimerEvent: {}
+[2.421885] (-) TimerEvent: {}
+[2.523116] (-) TimerEvent: {}
+[2.542934] (rclpy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[2.623363] (-) TimerEvent: {}
+[2.719026] (stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[2.723434] (-) TimerEvent: {}
+[2.823818] (-) TimerEvent: {}
+[2.881504] (stage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[2.925924] (-) TimerEvent: {}
+[3.006054] (rclpy) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.018944] (rclpy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.026071] (-) TimerEvent: {}
+[3.126468] (-) TimerEvent: {}
+[3.226870] (-) TimerEvent: {}
+[3.262056] (rclpy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.262273] (rclpy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.263854] (stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[3.328469] (-) TimerEvent: {}
+[3.430128] (-) TimerEvent: {}
+[3.531816] (-) TimerEvent: {}
+[3.609933] (stage) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[3.631837] (-) TimerEvent: {}
+[3.735234] (-) TimerEvent: {}
+[3.835737] (-) TimerEvent: {}
+[3.938746] (-) TimerEvent: {}
+[4.040933] (-) TimerEvent: {}
+[4.141810] (-) TimerEvent: {}
+[4.242199] (-) TimerEvent: {}
+[4.343683] (-) TimerEvent: {}
+[4.375942] (stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[4.443821] (-) TimerEvent: {}
+[4.546244] (-) TimerEvent: {}
+[4.646724] (-) TimerEvent: {}
+[4.747808] (-) TimerEvent: {}
+[4.848699] (-) TimerEvent: {}
+[4.949021] (-) TimerEvent: {}
+[4.995853] (stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[5.049694] (-) TimerEvent: {}
+[5.116337] (stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[5.151883] (-) TimerEvent: {}
+[5.253167] (-) TimerEvent: {}
+[5.353458] (-) TimerEvent: {}
+[5.453776] (-) TimerEvent: {}
+[5.556853] (-) TimerEvent: {}
+[5.657114] (-) TimerEvent: {}
+[5.758331] (-) TimerEvent: {}
+[5.858972] (-) TimerEvent: {}
+[5.959825] (-) TimerEvent: {}
+[6.014743] (stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[6.060358] (-) TimerEvent: {}
+[6.160741] (-) TimerEvent: {}
+[6.261057] (-) TimerEvent: {}
+[6.366347] (-) TimerEvent: {}
+[6.470029] (-) TimerEvent: {}
+[6.570846] (-) TimerEvent: {}
+[6.671309] (-) TimerEvent: {}
+[6.726833] (stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[6.772304] (-) TimerEvent: {}
+[6.846719] (stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[6.872492] (-) TimerEvent: {}
+[6.972831] (-) TimerEvent: {}
+[7.073284] (-) TimerEvent: {}
+[7.173712] (-) TimerEvent: {}
+[7.277357] (-) TimerEvent: {}
+[7.309434] (stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[7.377773] (-) TimerEvent: {}
+[7.478038] (-) TimerEvent: {}
+[7.510353] (stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[7.578752] (-) TimerEvent: {}
+[7.679668] (-) TimerEvent: {}
+[7.780639] (-) TimerEvent: {}
+[7.885081] (-) TimerEvent: {}
+[7.918272] (stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[7.922069] (stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[7.985600] (-) TimerEvent: {}
+[8.085942] (-) TimerEvent: {}
+[8.189699] (-) TimerEvent: {}
+[8.290742] (-) TimerEvent: {}
+[8.391228] (-) TimerEvent: {}
+[8.491621] (-) TimerEvent: {}
+[8.591867] (-) TimerEvent: {}
+[8.676886] (stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[8.692171] (-) TimerEvent: {}
+[8.794900] (-) TimerEvent: {}
+[8.895327] (-) TimerEvent: {}
+[8.897938] (stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[8.995492] (-) TimerEvent: {}
+[9.095870] (-) TimerEvent: {}
+[9.129897] (stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[9.196347] (-) TimerEvent: {}
+[9.296956] (-) TimerEvent: {}
+[9.346224] (stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[9.397193] (-) TimerEvent: {}
+[9.497485] (-) TimerEvent: {}
+[9.597772] (-) TimerEvent: {}
+[9.698160] (-) TimerEvent: {}
+[9.798557] (-) TimerEvent: {}
+[9.898849] (-) TimerEvent: {}
+[9.999370] (-) TimerEvent: {}
+[10.105696] (-) TimerEvent: {}
+[10.116836] (stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[10.205857] (-) TimerEvent: {}
+[10.295542] (stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[10.300806] (stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[10.306525] (-) TimerEvent: {}
+[10.407788] (-) TimerEvent: {}
+[10.508088] (-) TimerEvent: {}
+[10.553250] (stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[10.608337] (-) TimerEvent: {}
+[10.711843] (-) TimerEvent: {}
+[10.812152] (-) TimerEvent: {}
+[10.913638] (-) TimerEvent: {}
+[11.029130] (-) TimerEvent: {}
+[11.129429] (-) TimerEvent: {}
+[11.232792] (-) TimerEvent: {}
+[11.234338] (stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[11.332889] (-) TimerEvent: {}
+[11.437267] (-) TimerEvent: {}
+[11.537561] (-) TimerEvent: {}
+[11.565593] (stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[11.637713] (-) TimerEvent: {}
+[11.730074] (stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[11.741052] (-) TimerEvent: {}
+[11.841366] (-) TimerEvent: {}
+[11.908595] (stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[11.941496] (-) TimerEvent: {}
+[12.042137] (-) TimerEvent: {}
+[12.142854] (-) TimerEvent: {}
+[12.243652] (-) TimerEvent: {}
+[12.344276] (-) TimerEvent: {}
+[12.444993] (-) TimerEvent: {}
+[12.545346] (-) TimerEvent: {}
+[12.645659] (-) TimerEvent: {}
+[12.750799] (-) TimerEvent: {}
+[12.853887] (-) TimerEvent: {}
+[12.954534] (-) TimerEvent: {}
+[13.040315] (stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[13.054683] (-) TimerEvent: {}
+[13.155128] (-) TimerEvent: {}
+[13.255513] (-) TimerEvent: {}
+[13.356257] (-) TimerEvent: {}
+[13.456853] (-) TimerEvent: {}
+[13.557237] (-) TimerEvent: {}
+[13.658128] (-) TimerEvent: {}
+[13.758471] (-) TimerEvent: {}
+[13.858772] (-) TimerEvent: {}
+[13.959426] (-) TimerEvent: {}
+[14.017390] (stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[14.059564] (-) TimerEvent: {}
+[14.153431] (stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[14.159903] (-) TimerEvent: {}
+[14.261227] (-) TimerEvent: {}
+[14.361842] (-) TimerEvent: {}
+[14.463856] (-) TimerEvent: {}
+[14.564934] (-) TimerEvent: {}
+[14.665820] (-) TimerEvent: {}
+[14.767037] (-) TimerEvent: {}
+[14.867462] (-) TimerEvent: {}
+[14.968141] (-) TimerEvent: {}
+[15.069214] (-) TimerEvent: {}
+[15.170408] (-) TimerEvent: {}
+[15.271912] (-) TimerEvent: {}
+[15.374805] (-) TimerEvent: {}
+[15.423145] (stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[15.475850] (-) TimerEvent: {}
+[15.548456] (stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[15.568997] (stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[15.573522] (stage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[15.576004] (-) TimerEvent: {}
+[15.576226] (stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[15.586930] (stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[15.676771] (-) TimerEvent: {}
+[15.777827] (-) TimerEvent: {}
+[15.879844] (-) TimerEvent: {}
+[15.980170] (-) TimerEvent: {}
+[16.083859] (-) TimerEvent: {}
+[16.184516] (-) TimerEvent: {}
+[16.284866] (-) TimerEvent: {}
+[16.385178] (-) TimerEvent: {}
+[16.485593] (-) TimerEvent: {}
+[16.503981] (stage) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[16.585737] (-) TimerEvent: {}
+[16.642941] (stage) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[16.672444] (stage) StdoutLine: {'line': b'[ 67%] Built target fasr\n'}
+[16.686385] (-) TimerEvent: {}
+[16.723444] (stage) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[16.729791] (stage) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[16.767019] (stage) StdoutLine: {'line': b'[ 71%] Built target sink\n'}
+[16.786559] (-) TimerEvent: {}
+[16.792919] (stage) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[16.809142] (stage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[16.826882] (stage) StdoutLine: {'line': b'[ 74%] Built target source\n'}
+[16.855869] (stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[16.886707] (-) TimerEvent: {}
+[16.947075] (stage) StdoutLine: {'line': b'[ 76%] Built target stagebinary\n'}
+[16.966541] (stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[16.986844] (-) TimerEvent: {}
+[17.087581] (-) TimerEvent: {}
+[17.187842] (-) TimerEvent: {}
+[17.288964] (-) TimerEvent: {}
+[17.389298] (-) TimerEvent: {}
+[17.489630] (-) TimerEvent: {}
+[17.590776] (-) TimerEvent: {}
+[17.691858] (-) TimerEvent: {}
+[17.792482] (-) TimerEvent: {}
+[17.803244] (stage) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[17.872933] (stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[17.892708] (-) TimerEvent: {}
+[17.899969] (stage) StdoutLine: {'line': b'[ 81%] Built target rasterize\n'}
+[17.925335] (stage) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[17.968988] (stage) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[17.992157] (stage) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[17.992847] (-) TimerEvent: {}
+[18.026682] (stage) StdoutLine: {'line': b'[ 86%] Built target wander\n'}
+[18.063828] (stage) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[18.091922] (stage) StdoutLine: {'line': b'[ 88%] Built target lasernoise\n'}
+[18.093084] (-) TimerEvent: {}
+[18.141513] (stage) StdoutLine: {'line': b'[ 88%] Built target pioneer_flocking\n'}
+[18.152820] (stage) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[18.167985] (stage) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[18.193206] (-) TimerEvent: {}
+[18.296345] (-) TimerEvent: {}
+[18.396787] (-) TimerEvent: {}
+[18.497263] (-) TimerEvent: {}
+[18.597728] (-) TimerEvent: {}
+[18.698235] (-) TimerEvent: {}
+[18.798578] (-) TimerEvent: {}
+[18.898992] (-) TimerEvent: {}
+[18.913932] (stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[18.999344] (-) TimerEvent: {}
+[19.099837] (-) TimerEvent: {}
+[19.100448] (stage) StdoutLine: {'line': b'[ 93%] Built target dynamic\n'}
+[19.123127] (stage) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[19.200816] (-) TimerEvent: {}
+[19.218112] (stage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[19.291265] (stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[19.301873] (-) TimerEvent: {}
+[19.402484] (-) TimerEvent: {}
+[19.403915] (stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[19.409466] (stage) StdoutLine: {'line': b'[ 98%] Built target expand_swarm\n'}
+[19.502623] (-) TimerEvent: {}
+[19.603098] (-) TimerEvent: {}
+[19.703786] (-) TimerEvent: {}
+[19.804231] (-) TimerEvent: {}
+[19.832510] (stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[19.904386] (-) TimerEvent: {}
+[19.912946] (stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[19.931116] (stage) CommandEnded: {'returncode': 0}
+[19.931981] (stage) JobProgress: {'identifier': 'stage', 'progress': 'install'}
+[19.940761] (stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/trueog/ros2_ws_ROB599/build/stage'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/stage', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/stage', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}), 'shell': False}
+[19.948701] (stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[19.948912] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig/stage.pc\n'}
+[19.949015] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/cmake/Stage/stage-config.cmake\n'}
+[19.949149] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[19.949481] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/bin/stage\n'}
+[19.949825] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/bin/stage" to ""\n'}
+[19.950085] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/libstage.so.4.3.0\n'}
+[19.950675] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/libstage.so\n'}
+[19.950845] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/include/Stage-4.3/stage.hh\n'}
+[19.951284] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr.so\n'}
+[19.951575] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[19.951675] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/sink.so\n'}
+[19.951808] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/sink.so" to ""\n'}
+[19.951916] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/source.so\n'}
+[19.952164] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/source.so" to ""\n'}
+[19.952249] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/wander.so\n'}
+[19.952476] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/wander.so" to ""\n'}
+[19.952566] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[19.952695] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[19.952836] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/rasterize.so\n'}
+[19.953030] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[19.953135] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/lasernoise.so\n'}
+[19.953331] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[19.953421] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/dynamic.so\n'}
+[19.953611] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[19.953701] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr2.so\n'}
+[19.953938] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[19.954258] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/blue.png\n'}
+[19.954371] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/death.png\n'}
+[19.954467] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/green.png\n'}
+[19.954560] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/logo.png\n'}
+[19.954646] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/mains.png\n'}
+[19.954754] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/mainspower.png\n'}
+[19.954875] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/question_mark.png\n'}
+[19.954990] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/red.png\n'}
+[19.955095] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/stagelogo.png\n'}
+[19.955181] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/stall-old.png\n'}
+[19.955262] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/stall.png\n'}
+[19.955312] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/rgb.txt\n'}
+[19.955358] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/rgb.txt\n'}
+[19.955554] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[19.955667] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/autolab.cfg\n'}
+[19.955834] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/camera.cfg\n'}
+[19.955954] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/everything.cfg\n'}
+[19.956078] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/lsp_test.cfg\n'}
+[19.956181] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/mbicp.cfg\n'}
+[19.956281] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/nd.cfg\n'}
+[19.956381] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/roomba.cfg\n'}
+[19.956485] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/simple.cfg\n'}
+[19.956589] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/test.cfg\n'}
+[19.956717] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[19.956858] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/vfh.cfg\n'}
+[19.956954] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[19.957051] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wavefront.cfg\n'}
+[19.957137] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi.cfg\n'}
+[19.957251] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/SFU.world\n'}
+[19.957335] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/autolab.world\n'}
+[19.957452] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/camera.world\n'}
+[19.957555] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/circuit.world\n'}
+[19.957657] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/everything.world\n'}
+[19.957758] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/fasr.world\n'}
+[19.957889] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/fasr2.world\n'}
+[19.958021] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/fasr_plan.world\n'}
+[19.958112] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/large.world\n'}
+[19.958215] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/lsp_test.world\n'}
+[19.958313] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/mbicp.world\n'}
+[19.958414] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer_flocking.world\n'}
+[19.958504] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer_follow.world\n'}
+[19.958587] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer_walle.world\n'}
+[19.958672] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/roomba.world\n'}
+[19.958812] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[19.958903] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[19.959005] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/simple.world\n'}
+[19.959082] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[19.959127] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi.world\n'}
+[19.959173] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/beacons.inc\n'}
+[19.959218] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/chatterbox.inc\n'}
+[19.959306] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/hokuyo.inc\n'}
+[19.959356] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/irobot.inc\n'}
+[19.959402] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/map.inc\n'}
+[19.959471] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/objects.inc\n'}
+[19.959561] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pantilt.inc\n'}
+[19.959611] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer.inc\n'}
+[19.959657] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/sick.inc\n'}
+[19.959702] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/ubot.inc\n'}
+[19.959818] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[19.959862] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/walle.inc\n'}
+[19.959906] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/cfggen.sh\n'}
+[19.960001] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/test.sh\n'}
+[19.960084] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/worldgen.sh\n'}
+[19.960131] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_swarm.so\n'}
+[19.960174] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[19.960221] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[19.960307] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[19.960422] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[19.960501] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[19.960604] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[19.960689] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[19.960815] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/cave.png\n'}
+[19.960900] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[19.960991] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[19.961094] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[19.961183] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[19.961283] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[19.961380] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[19.961482] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[19.961588] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[19.961746] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/rink.png\n'}
+[19.961832] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[19.961899] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[19.962023] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[19.962076] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[19.962165] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[19.962250] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/table.png\n'}
+[19.962333] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[19.962387] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/commando.world\n'}
+[19.962473] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[19.962575] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[19.962677] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi.world\n'}
+[19.962766] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[19.962856] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[19.962918] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[19.962962] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[19.963008] (stage) StdoutLine: {'line': b'-- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/map.inc\n'}
+[19.966909] (stage) CommandEnded: {'returncode': 0}
+[19.979140] (stage) JobEnded: {'identifier': 'stage', 'rc': 0}
+[19.979608] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[19.990052] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[19.990425] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/trueog/ros2_ws_ROB599/src/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage_ros2'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/stage_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/stage_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}), 'shell': False}
+[20.004544] (-) TimerEvent: {}
+[20.051070] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[20.104175] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[20.104710] (-) TimerEvent: {}
+[20.119375] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[20.204987] (-) TimerEvent: {}
+[20.212841] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.221859] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.222203] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.222701] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.233906] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.305271] (-) TimerEvent: {}
+[20.330951] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.338947] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.339473] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.341848] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.342100] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[20.405758] (-) TimerEvent: {}
+[20.490621] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[20.505893] (-) TimerEvent: {}
+[20.578466] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 29.5.5 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[20.606661] (-) TimerEvent: {}
+[20.612844] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[20.623387] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[20.639442] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.655004] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.706832] (-) TimerEvent: {}
+[20.722590] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[20.725844] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[20.798864] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[20.806890] (-) TimerEvent: {}
+[20.810815] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.904223] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 29.5.5 (/opt/ros/kilted/share/rclcpp_components/cmake)\n'}
+[20.907504] (-) TimerEvent: {}
+[20.962418] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)\n'}
+[21.008176] (-) TimerEvent: {}
+[21.060079] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 5.5.1 (/opt/ros/kilted/share/nav_msgs/cmake)\n'}
+[21.098491] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.41.5 (/opt/ros/kilted/share/tf2_ros/cmake)\n'}
+[21.108374] (-) TimerEvent: {}
+[21.208641] (-) TimerEvent: {}
+[21.215983] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.41.5 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)\n'}
+[21.237441] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)\n'}
+[21.240857] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[21.241342] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[21.246834] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 5.5.1 (/opt/ros/kilted/share/std_srvs/cmake)\n'}
+[21.272565] (stage_ros2) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.272748] (stage_ros2) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.273866] (stage_ros2) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.273929] (stage_ros2) StderrLine: {'line': b'\n'}
+[21.273975] (stage_ros2) StderrLine: {'line': b'    target_link_libraries(stage_node PUBLIC\n'}
+[21.274022] (stage_ros2) StderrLine: {'line': b'      ${geometry_msgs_TARGETS}\n'}
+[21.274074] (stage_ros2) StderrLine: {'line': b'      ${nav_msgs_TARGETS}\n'}
+[21.274120] (stage_ros2) StderrLine: {'line': b'      ${sensor_msgs_TARGETS}\n'}
+[21.274165] (stage_ros2) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[21.274209] (stage_ros2) StderrLine: {'line': b'      ${std_srvs_TARGETS}\n'}
+[21.274254] (stage_ros2) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.274299] (stage_ros2) StderrLine: {'line': b'      rclcpp_components::component\n'}
+[21.274343] (stage_ros2) StderrLine: {'line': b'      rclcpp_components::component_manager\n'}
+[21.274386] (stage_ros2) StderrLine: {'line': b'      sensor_msgs::sensor_msgs_library\n'}
+[21.274431] (stage_ros2) StderrLine: {'line': b'      tf2_geometry_msgs::tf2_geometry_msgs\n'}
+[21.274490] (stage_ros2) StderrLine: {'line': b'      tf2_ros::static_transform_broadcaster_node\n'}
+[21.274534] (stage_ros2) StderrLine: {'line': b'      tf2_ros::tf2_ros\n'}
+[21.274579] (stage_ros2) StderrLine: {'line': b'    )\n'}
+[21.274623] (stage_ros2) StderrLine: {'line': b'\n'}
+[21.274666] (stage_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.274711] (stage_ros2) StderrLine: {'line': b'  CMakeLists.txt:34 (ament_target_dependencies)\n'}
+[21.274755] (stage_ros2) StderrLine: {'line': b'\n'}
+[21.274835] (stage_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[21.279373] (stage_ros2) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.279493] (stage_ros2) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.279551] (stage_ros2) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.279599] (stage_ros2) StderrLine: {'line': b'\n'}
+[21.279644] (stage_ros2) StderrLine: {'line': b'    target_link_libraries(stage_ros2 PUBLIC\n'}
+[21.279687] (stage_ros2) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.279732] (stage_ros2) StderrLine: {'line': b'    )\n'}
+[21.279775] (stage_ros2) StderrLine: {'line': b'\n'}
+[21.279879] (stage_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.279925] (stage_ros2) StderrLine: {'line': b'  CMakeLists.txt:51 (ament_target_dependencies)\n'}
+[21.279968] (stage_ros2) StderrLine: {'line': b'\n'}
+[21.280011] (stage_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[21.280103] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[21.308840] (-) TimerEvent: {}
+[21.403675] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.404246] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/trueog/ros2_ws_ROB599/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/trueog/ros2_ws_ROB599/src/stage_ros2/include>\n'}
+[21.404473] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.406014] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[21.406143] (stage_ros2) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[21.407975] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.408924] (-) TimerEvent: {}
+[21.409593] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[21.414985] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.415252] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.416092] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.421548] (stage_ros2) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[21.423943] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8\n"}
+[21.426954] (stage_ros2) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[21.450947] (stage_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[21.456914] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/trueog/ros2_ws_ROB599/build/stage_ros2\n'}
+[21.466307] (stage_ros2) CommandEnded: {'returncode': 0}
+[21.466833] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[21.467295] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/trueog/ros2_ws_ROB599/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/stage_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/stage_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}), 'shell': False}
+[21.509180] (-) TimerEvent: {}
+[21.522009] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[21.527889] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[21.531598] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[21.533848] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[21.609447] (-) TimerEvent: {}
+[21.710171] (-) TimerEvent: {}
+[21.811489] (-) TimerEvent: {}
+[21.913814] (-) TimerEvent: {}
+[22.014124] (-) TimerEvent: {}
+[22.115112] (-) TimerEvent: {}
+[22.215421] (-) TimerEvent: {}
+[22.315816] (-) TimerEvent: {}
+[22.416371] (-) TimerEvent: {}
+[22.516880] (-) TimerEvent: {}
+[22.620856] (-) TimerEvent: {}
+[22.721725] (-) TimerEvent: {}
+[22.822064] (-) TimerEvent: {}
+[22.922703] (-) TimerEvent: {}
+[23.023701] (-) TimerEvent: {}
+[23.124207] (-) TimerEvent: {}
+[23.227015] (-) TimerEvent: {}
+[23.327477] (-) TimerEvent: {}
+[23.435728] (-) TimerEvent: {}
+[23.536336] (-) TimerEvent: {}
+[23.636722] (-) TimerEvent: {}
+[23.737106] (-) TimerEvent: {}
+[23.839846] (-) TimerEvent: {}
+[23.940644] (-) TimerEvent: {}
+[24.041355] (-) TimerEvent: {}
+[24.141802] (-) TimerEvent: {}
+[24.242742] (-) TimerEvent: {}
+[24.345862] (-) TimerEvent: {}
+[24.446189] (-) TimerEvent: {}
+[24.546638] (-) TimerEvent: {}
+[24.647052] (-) TimerEvent: {}
+[24.748064] (-) TimerEvent: {}
+[24.852859] (-) TimerEvent: {}
+[24.953458] (-) TimerEvent: {}
+[25.054769] (-) TimerEvent: {}
+[25.155788] (-) TimerEvent: {}
+[25.256504] (-) TimerEvent: {}
+[25.357810] (-) TimerEvent: {}
+[25.460844] (-) TimerEvent: {}
+[25.561178] (-) TimerEvent: {}
+[25.661984] (-) TimerEvent: {}
+[25.762628] (-) TimerEvent: {}
+[25.862870] (-) TimerEvent: {}
+[25.964044] (-) TimerEvent: {}
+[26.066861] (-) TimerEvent: {}
+[26.167670] (-) TimerEvent: {}
+[26.270835] (-) TimerEvent: {}
+[26.373974] (-) TimerEvent: {}
+[26.474363] (-) TimerEvent: {}
+[26.574693] (-) TimerEvent: {}
+[26.675027] (-) TimerEvent: {}
+[26.775321] (-) TimerEvent: {}
+[26.875859] (-) TimerEvent: {}
+[26.976551] (-) TimerEvent: {}
+[27.077836] (-) TimerEvent: {}
+[27.178872] (-) TimerEvent: {}
+[27.272428] (rclpy) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[27.279497] (-) TimerEvent: {}
+[27.290990] (rclpy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[27.291303] (rclpy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[27.296840] (rclpy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[27.297027] (rclpy) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[27.300987] (rclpy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[27.305951] (rclpy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[27.318319] (rclpy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[27.321860] (rclpy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[27.323062] (rclpy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[27.326920] (rclpy) StdoutLine: {'line': b'-- Configuring done (27.3s)\n'}
+[27.379643] (-) TimerEvent: {}
+[27.394060] (rclpy) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[27.414840] (rclpy) StdoutLine: {'line': b'-- Build files have been written to: /home/trueog/ros2_ws_ROB599/build/rclpy\n'}
+[27.444540] (rclpy) CommandEnded: {'returncode': 0}
+[27.447032] (rclpy) JobProgress: {'identifier': 'rclpy', 'progress': 'build'}
+[27.447089] (rclpy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/trueog/ros2_ws_ROB599/build/rclpy', '--', '-j4', '-l4'], 'cwd': '/home/trueog/ros2_ws_ROB599/build/rclpy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share:/home/trueog/ros2_ws_ROB599/src/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1924', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install:/home/trueog/ros2_ws_ROB599/src/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/src/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/home/trueog/ros2_ws_ROB599/src/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1878,unix/Ubuntu24:/tmp/.ICE-unix/1878', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/22820fe7_42dc_484c_881f_9ca465028fbb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GYPPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/build/rclpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw3/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/build/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw1/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted'}), 'shell': False}
+[27.479801] (-) TimerEvent: {}
+[27.583074] (rclpy) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[27.583310] (-) TimerEvent: {}
+[27.594036] (rclpy) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o\x1b[0m\n'}
+[27.595137] (rclpy) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[27.604909] (rclpy) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_rclpy\n'}
+[27.683451] (-) TimerEvent: {}
+[27.784764] (-) TimerEvent: {}
+[27.887918] (-) TimerEvent: {}
+[27.988254] (-) TimerEvent: {}
+[28.088627] (-) TimerEvent: {}
+[28.192867] (-) TimerEvent: {}
+[28.267963] (rclpy) StdoutLine: {'line': b'running egg_info\n'}
+[28.274885] (rclpy) StdoutLine: {'line': b'creating rclpy.egg-info\n'}
+[28.296864] (-) TimerEvent: {}
+[28.332413] (rclpy) StdoutLine: {'line': b'writing rclpy.egg-info/PKG-INFO\n'}
+[28.332882] (rclpy) StdoutLine: {'line': b'writing dependency_links to rclpy.egg-info/dependency_links.txt\n'}
+[28.333106] (rclpy) StdoutLine: {'line': b'writing top-level names to rclpy.egg-info/top_level.txt\n'}
+[28.333250] (rclpy) StdoutLine: {'line': b"writing manifest file 'rclpy.egg-info/SOURCES.txt'\n"}
+[28.397224] (-) TimerEvent: {}
+[28.463433] (rclpy) StdoutLine: {'line': b"reading manifest file 'rclpy.egg-info/SOURCES.txt'\n"}
+[28.464950] (rclpy) StdoutLine: {'line': b"writing manifest file 'rclpy.egg-info/SOURCES.txt'\n"}
+[28.499861] (-) TimerEvent: {}
+[28.560280] (rclpy) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_rclpy_egg\n'}
+[28.597455] (rclpy) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_pybind11.cpp.o\x1b[0m\n'}
+[28.600219] (-) TimerEvent: {}
+[28.700589] (-) TimerEvent: {}
+[28.802864] (-) TimerEvent: {}
+[28.903187] (-) TimerEvent: {}
+[29.003678] (-) TimerEvent: {}
+[29.106870] (-) TimerEvent: {}
+[29.209845] (-) TimerEvent: {}
+[29.310288] (-) TimerEvent: {}
+[29.410638] (-) TimerEvent: {}
+[29.513857] (-) TimerEvent: {}
+[29.615863] (-) TimerEvent: {}
+[29.716230] (-) TimerEvent: {}
+[29.817541] (-) TimerEvent: {}
+[29.917843] (-) TimerEvent: {}
+[29.933186] (rclpy) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[30.020873] (-) TimerEvent: {}
+[30.026091] (rclpy) StdoutLine: {'line': b'[ 11%] Built target gtest_main\n'}
+[30.052880] (rclpy) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_client.cpp.o\x1b[0m\n'}
+[30.121021] (-) TimerEvent: {}
+[30.221340] (-) TimerEvent: {}
+[30.323875] (-) TimerEvent: {}
+[30.424216] (-) TimerEvent: {}
+[30.527951] (-) TimerEvent: {}
+[30.629886] (-) TimerEvent: {}
+[30.730765] (-) TimerEvent: {}
+[30.834878] (-) TimerEvent: {}
+[30.935196] (-) TimerEvent: {}
+[31.035558] (-) TimerEvent: {}
+[31.135864] (-) TimerEvent: {}
+[31.165198] (rclpy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26\x1b[m\x1b[K,\n'}
+[31.165503] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/client.hpp:28\x1b[m\x1b[K,\n'}
+[31.165616] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/wait_set.hpp:25\x1b[m\x1b[K,\n'}
+[31.165706] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.hpp:27\x1b[m\x1b[K,\n'}
+[31.165822] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/_rclpy_pybind11.cpp:25\x1b[m\x1b[K:\n'}
+[31.165908] (rclpy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krmw_service_endpoint_info_array_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_topic_endpoint_info_array_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[31.165994] (rclpy) StderrLine: {'line': b'  153 | convert_to_py_service_endpoint_info_list(const \x1b[01;31m\x1b[Krmw_service_endpoint_info_array_t\x1b[m\x1b[K * info_array);\n'}
+[31.166081] (rclpy) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.166168] (rclpy) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Krmw_topic_endpoint_info_array_t\x1b[m\x1b[K\n'}
+[31.238876] (-) TimerEvent: {}
+[31.340847] (-) TimerEvent: {}
+[31.442875] (-) TimerEvent: {}
+[31.543503] (-) TimerEvent: {}
+[31.643833] (-) TimerEvent: {}
+[31.744169] (-) TimerEvent: {}
+[31.844518] (-) TimerEvent: {}
+[31.945911] (-) TimerEvent: {}
+[32.048175] (-) TimerEvent: {}
+[32.149886] (-) TimerEvent: {}
+[32.187850] (rclpy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26\x1b[m\x1b[K,\n'}
+[32.188011] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/client.hpp:28\x1b[m\x1b[K,\n'}
+[32.188062] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/wait_set.hpp:25\x1b[m\x1b[K,\n'}
+[32.188108] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.hpp:27\x1b[m\x1b[K,\n'}
+[32.188160] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.cpp:27\x1b[m\x1b[K:\n'}
+[32.188204] (rclpy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krmw_service_endpoint_info_array_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_topic_endpoint_info_array_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[32.188252] (rclpy) StderrLine: {'line': b'  153 | convert_to_py_service_endpoint_info_list(const \x1b[01;31m\x1b[Krmw_service_endpoint_info_array_t\x1b[m\x1b[K * info_array);\n'}
+[32.188294] (rclpy) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.188337] (rclpy) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Krmw_topic_endpoint_info_array_t\x1b[m\x1b[K\n'}
+[32.250078] (-) TimerEvent: {}
+[32.350393] (-) TimerEvent: {}
+[32.450790] (-) TimerEvent: {}
+[32.552705] (-) TimerEvent: {}
+[32.653190] (-) TimerEvent: {}
+[32.754302] (-) TimerEvent: {}
+[32.856832] (-) TimerEvent: {}
+[32.957159] (-) TimerEvent: {}
+[33.058638] (-) TimerEvent: {}
+[33.159389] (-) TimerEvent: {}
+[33.260790] (-) TimerEvent: {}
+[33.362126] (-) TimerEvent: {}
+[33.462688] (-) TimerEvent: {}
+[33.564644] (-) TimerEvent: {}
+[33.667865] (-) TimerEvent: {}
+[33.690890] (rclpy) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_goal_handle.cpp.o\x1b[0m\n'}
+[33.768012] (-) TimerEvent: {}
+[33.871900] (-) TimerEvent: {}
+[33.974877] (-) TimerEvent: {}
+[34.076893] (-) TimerEvent: {}
+[34.132048] (rclpy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:104: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_client.cpp.o] Error 1\n'}
+[34.132245] (rclpy) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[34.179077] (-) TimerEvent: {}
+[34.282887] (-) TimerEvent: {}
+[34.385925] (-) TimerEvent: {}
+[34.486929] (-) TimerEvent: {}
+[34.590516] (-) TimerEvent: {}
+[34.690864] (-) TimerEvent: {}
+[34.791908] (-) TimerEvent: {}
+[34.893847] (-) TimerEvent: {}
+[34.996882] (-) TimerEvent: {}
+[35.097319] (-) TimerEvent: {}
+[35.172156] (rclpy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:90: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_pybind11.cpp.o] Error 1\n'}
+[35.197886] (-) TimerEvent: {}
+[35.298378] (-) TimerEvent: {}
+[35.343948] (rclpy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26\x1b[m\x1b[K,\n'}
+[35.344177] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_server.hpp:25\x1b[m\x1b[K,\n'}
+[35.344257] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_goal_handle.hpp:25\x1b[m\x1b[K,\n'}
+[35.344331] (rclpy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_goal_handle.cpp:24\x1b[m\x1b[K:\n'}
+[35.344401] (rclpy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krmw_service_endpoint_info_array_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_topic_endpoint_info_array_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[35.344474] (rclpy) StderrLine: {'line': b'  153 | convert_to_py_service_endpoint_info_list(const \x1b[01;31m\x1b[Krmw_service_endpoint_info_array_t\x1b[m\x1b[K * info_array);\n'}
+[35.344541] (rclpy) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.344665] (rclpy) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Krmw_topic_endpoint_info_array_t\x1b[m\x1b[K\n'}
+[35.398564] (-) TimerEvent: {}
+[35.498882] (-) TimerEvent: {}
+[35.599890] (-) TimerEvent: {}
+[35.700501] (-) TimerEvent: {}
+[35.804579] (-) TimerEvent: {}
+[35.904900] (-) TimerEvent: {}
+[36.005405] (-) TimerEvent: {}
+[36.102356] (rclpy) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[36.105828] (-) TimerEvent: {}
+[36.189909] (rclpy) StdoutLine: {'line': b'[ 18%] Built target gtest\n'}
+[36.205960] (-) TimerEvent: {}
+[36.216847] (rclpy) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/test_python_allocator.dir/test/test_python_allocator.cpp.o\x1b[0m\n'}
+[36.306224] (-) TimerEvent: {}
+[36.353375] (rclpy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:118: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_goal_handle.cpp.o] Error 1\n'}
+[36.353708] (rclpy) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/_rclpy_pybind11.dir/all] Error 2\n'}
+[36.353840] (rclpy) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[36.406857] (-) TimerEvent: {}
+[36.507698] (-) TimerEvent: {}
+[36.613849] (-) TimerEvent: {}
+[36.722812] (-) TimerEvent: {}
+[36.884027] (-) TimerEvent: {}
+[36.997895] (-) TimerEvent: {}
+[37.179002] (-) TimerEvent: {}
+[37.311735] (-) TimerEvent: {}
+[37.449129] (-) TimerEvent: {}
+[37.552681] (-) TimerEvent: {}
+[37.730187] (-) TimerEvent: {}
+[37.877313] (-) TimerEvent: {}
+[37.998328] (-) TimerEvent: {}
+[38.154078] (-) TimerEvent: {}
+[38.300909] (-) TimerEvent: {}
+[38.411988] (-) TimerEvent: {}
+[38.524977] (-) TimerEvent: {}
+[38.627255] (-) TimerEvent: {}
+[38.746380] (-) TimerEvent: {}
+[38.859306] (-) TimerEvent: {}
+[38.961386] (-) TimerEvent: {}
+[39.030713] (rclpy) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX executable test_python_allocator\x1b[0m\n'}
+[39.061458] (-) TimerEvent: {}
+[39.165649] (-) TimerEvent: {}
+[39.174744] (rclpy) StdoutLine: {'line': b'[ 22%] Built target test_python_allocator\n'}
+[39.177648] (rclpy) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[39.180291] (rclpy) CommandEnded: {'returncode': 2}
+[39.185991] (rclpy) JobEnded: {'identifier': 'rclpy', 'rc': 2}
+[39.300961] (-) TimerEvent: {}
+[39.410083] (-) TimerEvent: {}
+[39.513099] (-) TimerEvent: {}
+[39.616841] (-) TimerEvent: {}
+[39.719578] (-) TimerEvent: {}
+[39.828836] (-) TimerEvent: {}
+[39.937990] (-) TimerEvent: {}
+[40.062313] (-) TimerEvent: {}
+[40.170058] (-) TimerEvent: {}
+[40.344711] (-) TimerEvent: {}
+[40.465173] (-) TimerEvent: {}
+[40.623324] (-) TimerEvent: {}
+[40.755356] (-) TimerEvent: {}
+[40.922068] (-) TimerEvent: {}
+[41.024599] (-) TimerEvent: {}
+[41.127618] (-) TimerEvent: {}
+[41.237216] (-) TimerEvent: {}
+[41.339293] (-) TimerEvent: {}
+[41.477006] (-) TimerEvent: {}
+[41.597797] (-) TimerEvent: {}
+[41.701372] (-) TimerEvent: {}
+[41.802113] (-) TimerEvent: {}
+[41.840126] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[41.902291] (-) TimerEvent: {}
+[42.023962] (-) TimerEvent: {}
+[42.124793] (-) TimerEvent: {}
+[42.225107] (-) TimerEvent: {}
+[42.326689] (-) TimerEvent: {}
+[42.432493] (-) TimerEvent: {}
+[42.536438] (-) TimerEvent: {}
+[42.585352] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[42.617432] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[42.636624] (-) TimerEvent: {}
+[42.739199] (-) TimerEvent: {}
+[42.840292] (-) TimerEvent: {}
+[42.944442] (-) TimerEvent: {}
+[43.046563] (-) TimerEvent: {}
+[43.147180] (-) TimerEvent: {}
+[43.248047] (-) TimerEvent: {}
+[43.349472] (-) TimerEvent: {}
+[43.451154] (-) TimerEvent: {}
+[43.551935] (-) TimerEvent: {}
+[43.653005] (-) TimerEvent: {}
+[43.753516] (-) TimerEvent: {}
+[43.854439] (-) TimerEvent: {}
+[43.954887] (-) TimerEvent: {}
+[44.055236] (-) TimerEvent: {}
+[44.155684] (-) TimerEvent: {}
+[44.260655] (-) TimerEvent: {}
+[44.361473] (-) TimerEvent: {}
+[44.461873] (-) TimerEvent: {}
+[44.568355] (-) TimerEvent: {}
+[44.668726] (-) TimerEvent: {}
+[44.769610] (-) TimerEvent: {}
+[44.870260] (-) TimerEvent: {}
+[44.970687] (-) TimerEvent: {}
+[45.071463] (-) TimerEvent: {}
+[45.172223] (-) TimerEvent: {}
+[45.273991] (-) TimerEvent: {}
+[45.374557] (-) TimerEvent: {}
+[45.479425] (-) TimerEvent: {}
+[45.580327] (-) TimerEvent: {}
+[45.683461] (-) TimerEvent: {}
+[45.784626] (-) TimerEvent: {}
+[45.885744] (-) TimerEvent: {}
+[45.986438] (-) TimerEvent: {}
+[46.086927] (-) TimerEvent: {}
+[46.187432] (-) TimerEvent: {}
+[46.289893] (-) TimerEvent: {}
+[46.390789] (-) TimerEvent: {}
+[46.495883] (-) TimerEvent: {}
+[46.596898] (-) TimerEvent: {}
+[46.699322] (-) TimerEvent: {}
+[46.799713] (-) TimerEvent: {}
+[46.904625] (-) TimerEvent: {}
+[47.006385] (-) TimerEvent: {}
+[47.108537] (-) TimerEvent: {}
+[47.208971] (-) TimerEvent: {}
+[47.309699] (-) TimerEvent: {}
+[47.421983] (-) TimerEvent: {}
+[47.474196] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[47.522688] (-) TimerEvent: {}
+[47.644160] (-) TimerEvent: {}
+[47.773522] (-) TimerEvent: {}
+[47.898899] (-) TimerEvent: {}
+[47.927515] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[47.939569] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 'SIGINT'}
+[47.950383] (hw1) JobSkipped: {'identifier': 'hw1'}
+[47.950442] (hw2) JobSkipped: {'identifier': 'hw2'}
+[47.950459] (hw3) JobSkipped: {'identifier': 'hw3'}
+[47.950472] (-) EventReactorShutdown: {}

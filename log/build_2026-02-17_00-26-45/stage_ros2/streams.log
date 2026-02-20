@@ -1,0 +1,95 @@
+[0.011s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake /home/trueog/ros2_ws_ROB599/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage_ros2
+[0.072s] -- The C compiler identification is GNU 13.3.0
+[0.125s] -- The CXX compiler identification is GNU 13.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.242s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.254s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.599s] -- Found rclcpp: 29.5.5 (/opt/ros/kilted/share/rclcpp/cmake)
+[0.633s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.746s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[0.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.925s] -- Found rclcpp_components: 29.5.5 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[0.983s] -- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[1.081s] -- Found nav_msgs: 5.5.1 (/opt/ros/kilted/share/nav_msgs/cmake)
+[1.119s] -- Found tf2_ros: 0.41.5 (/opt/ros/kilted/share/tf2_ros/cmake)
+[1.236s] -- Found tf2_geometry_msgs: 0.41.5 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[1.258s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[1.261s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.262s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.267s] -- Found std_srvs: 5.5.1 (/opt/ros/kilted/share/std_srvs/cmake)
+[1.293s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[1.294s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[1.294s]   with modern CMake targets instead.  Try replacing this call with:
+[1.294s] 
+[1.294s]     target_link_libraries(stage_node PUBLIC
+[1.294s]       ${geometry_msgs_TARGETS}
+[1.294s]       ${nav_msgs_TARGETS}
+[1.295s]       ${sensor_msgs_TARGETS}
+[1.295s]       ${std_msgs_TARGETS}
+[1.295s]       ${std_srvs_TARGETS}
+[1.295s]       rclcpp::rclcpp
+[1.295s]       rclcpp_components::component
+[1.295s]       rclcpp_components::component_manager
+[1.295s]       sensor_msgs::sensor_msgs_library
+[1.295s]       tf2_geometry_msgs::tf2_geometry_msgs
+[1.295s]       tf2_ros::static_transform_broadcaster_node
+[1.295s]       tf2_ros::tf2_ros
+[1.295s]     )
+[1.295s] 
+[1.295s] Call Stack (most recent call first):
+[1.295s]   CMakeLists.txt:34 (ament_target_dependencies)
+[1.295s] 
+[1.295s] [0m
+[1.300s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[1.300s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[1.300s]   with modern CMake targets instead.  Try replacing this call with:
+[1.300s] 
+[1.300s]     target_link_libraries(stage_ros2 PUBLIC
+[1.300s]       rclcpp::rclcpp
+[1.300s]     )
+[1.300s] 
+[1.300s] Call Stack (most recent call first):
+[1.300s]   CMakeLists.txt:51 (ament_target_dependencies)
+[1.300s] 
+[1.300s] [0m
+[1.301s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[1.424s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.425s] -- Configured cppcheck include dirs: /home/trueog/ros2_ws_ROB599/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/trueog/ros2_ws_ROB599/src/stage_ros2/include>
+[1.425s] -- Configured cppcheck exclude dirs and/or files: 
+[1.426s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.427s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.428s] -- Added test 'lint_cmake' to check CMake code style
+[1.430s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.435s] -- Added test 'uncrustify' to check C / C++ code style
+[1.436s] -- Configured uncrustify additional arguments: 
+[1.437s] -- Added test 'xmllint' to check XML markup files
+[1.442s] -- Added test 'clang_format' to check C / C++ code style
+[1.444s] -- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8
+[1.447s] -- Configuring done (1.4s)
+[1.471s] -- Generating done (0.0s)
+[1.477s] -- Build files have been written to: /home/trueog/ros2_ws_ROB599/build/stage_ros2
+[1.487s] Invoked command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake /home/trueog/ros2_ws_ROB599/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage_ros2
+[1.488s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --build /home/trueog/ros2_ws_ROB599/build/stage_ros2 -- -j4 -l4
+[1.543s] [ 14%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[1.548s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[1.552s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[1.554s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[21.861s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[22.606s] [ 71%] Built target stage_node
+[22.638s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[27.495s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[27.948s] [100%] Built target stage_ros2

@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found lifecycle_msgs: 2.3.0 (/opt/ros/kilted/share/lifecycle_msgs/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rcl: 10.1.3 (/opt/ros/kilted/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rcl_action: 10.1.3 (/opt/ros/kilted/share/rcl_action/cmake)
+-- Found rcl_lifecycle: 10.1.3 (/opt/ros/kilted/share/rcl_lifecycle/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /usr/include (found version "2.11.1")
+-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (27.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/trueog/ros2_ws_ROB599/build/rclpy
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o[0m
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  6%] Built target ament_cmake_python_copy_rclpy
+running egg_info
+creating rclpy.egg-info
+writing rclpy.egg-info/PKG-INFO
+writing dependency_links to rclpy.egg-info/dependency_links.txt
+writing top-level names to rclpy.egg-info/top_level.txt
+writing manifest file 'rclpy.egg-info/SOURCES.txt'
+reading manifest file 'rclpy.egg-info/SOURCES.txt'
+writing manifest file 'rclpy.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_rclpy_egg
+[  9%] [32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_pybind11.cpp.o[0m
+[ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 11%] Built target gtest_main
+[ 13%] [32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_client.cpp.o[0m
+In file included from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/client.hpp:28[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/wait_set.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.hpp:27[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/_rclpy_pybind11.cpp:25[m[K:
+[01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_service_endpoint_info_array_t[m[K’ does not name a type; did you mean ‘[01m[Krmw_topic_endpoint_info_array_t[m[K’?
+  153 | convert_to_py_service_endpoint_info_list(const [01;31m[Krmw_service_endpoint_info_array_t[m[K * info_array);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krmw_topic_endpoint_info_array_t[m[K
+In file included from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/client.hpp:28[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/wait_set.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.hpp:27[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.cpp:27[m[K:
+[01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_service_endpoint_info_array_t[m[K’ does not name a type; did you mean ‘[01m[Krmw_topic_endpoint_info_array_t[m[K’?
+  153 | convert_to_py_service_endpoint_info_list(const [01;31m[Krmw_service_endpoint_info_array_t[m[K * info_array);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krmw_topic_endpoint_info_array_t[m[K
+[ 15%] [32mBuilding CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_goal_handle.cpp.o[0m
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:104: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_client.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:90: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_pybind11.cpp.o] Error 1
+In file included from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_server.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_goal_handle.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_goal_handle.cpp:24[m[K:
+[01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_service_endpoint_info_array_t[m[K’ does not name a type; did you mean ‘[01m[Krmw_topic_endpoint_info_array_t[m[K’?
+  153 | convert_to_py_service_endpoint_info_list(const [01;31m[Krmw_service_endpoint_info_array_t[m[K * info_array);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krmw_topic_endpoint_info_array_t[m[K
+[ 18%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 18%] Built target gtest
+[ 20%] [32mBuilding CXX object CMakeFiles/test_python_allocator.dir/test/test_python_allocator.cpp.o[0m
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:118: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_goal_handle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/_rclpy_pybind11.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 22%] [32m[1mLinking CXX executable test_python_allocator[0m
+[ 22%] Built target test_python_allocator
+gmake: *** [Makefile:146: all] Error 2

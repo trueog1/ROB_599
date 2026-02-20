@@ -1,0 +1,2 @@
+[console_scripts]
+basic_controller = hw2.hw2_controller:main

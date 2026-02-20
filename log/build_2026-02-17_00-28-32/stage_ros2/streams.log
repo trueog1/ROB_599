@@ -1,0 +1,71 @@
+[0.025s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --build /home/trueog/ros2_ws_ROB599/build/stage_ros2 -- -j4 -l4
+[0.123s] [ 71%] Built target stage_node
+[0.170s] [100%] Built target stage_ros2
+[0.185s] Invoked command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --build /home/trueog/ros2_ws_ROB599/build/stage_ros2 -- -j4 -l4
+[0.185s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --install /home/trueog/ros2_ws_ROB599/build/stage_ros2
+[0.196s] -- Install configuration: ""
+[0.196s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[0.197s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[0.198s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch
+[0.198s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[0.199s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[0.200s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/open.launch .py
+[0.200s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[0.200s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[0.200s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[0.200s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world
+[0.201s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/straden.world
+[0.202s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/hallway.world
+[0.202s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[0.202s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave.world
+[0.202s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[0.203s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/lines.world
+[0.203s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/open.world
+[0.208s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[0.208s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps
+[0.209s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[0.209s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[0.212s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[0.213s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[0.213s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/open.PNG
+[0.215s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[0.215s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[0.215s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[0.216s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[0.217s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[0.217s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[0.219s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/include
+[0.219s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[0.220s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[0.221s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config
+[0.221s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[0.221s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[0.221s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz
+[0.221s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[0.221s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[0.222s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/open.rviz
+[0.222s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[0.224s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[0.224s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[0.224s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[0.227s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[0.227s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/libstage_node.so
+[0.248s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/libstage_node.so" to ""
+[0.249s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/stage_ros2/stage_ros2
+[0.253s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[0.253s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[0.253s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[0.255s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[0.255s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[0.255s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/path.sh
+[0.255s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[0.255s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.bash
+[0.256s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.sh
+[0.256s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[0.256s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[0.256s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/package.dsv
+[0.256s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[0.259s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[0.260s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[0.260s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage_ros2/share/stage_ros2/package.xml
+[0.265s] Invoked command in '/home/trueog/ros2_ws_ROB599/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/trueog/ros2_ws_ROB599/install/hw3:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/hw3:/home/trueog/ros2_ws_ROB599/src/install/hw2:/home/trueog/ros2_ws_ROB599/src/install/hw1:/home/trueog/ros2_ws_ROB599/src/install/py_pubsub:/opt/ros/kilted:/home/trueog/ros2_ws_ROB599/install/stage:/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2:/home/trueog/ros2_ws_ROB599/src/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/trueog/ros2_ws_ROB599/install/stage/lib:/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/src/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --install /home/trueog/ros2_ws_ROB599/build/stage_ros2

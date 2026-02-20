@@ -1,0 +1,33 @@
+In file included from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/client.hpp:28[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/wait_set.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.hpp:27[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/_rclpy_pybind11.cpp:25[m[K:
+[01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_service_endpoint_info_array_t[m[K’ does not name a type; did you mean ‘[01m[Krmw_topic_endpoint_info_array_t[m[K’?
+  153 | convert_to_py_service_endpoint_info_list(const [01;31m[Krmw_service_endpoint_info_array_t[m[K * info_array);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krmw_topic_endpoint_info_array_t[m[K
+In file included from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/client.hpp:28[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/wait_set.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.hpp:27[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_client.cpp:27[m[K:
+[01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_service_endpoint_info_array_t[m[K’ does not name a type; did you mean ‘[01m[Krmw_topic_endpoint_info_array_t[m[K’?
+  153 | convert_to_py_service_endpoint_info_list(const [01;31m[Krmw_service_endpoint_info_array_t[m[K * info_array);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krmw_topic_endpoint_info_array_t[m[K
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:104: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_client.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:90: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_pybind11.cpp.o] Error 1
+In file included from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/clock.hpp:26[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_server.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_goal_handle.hpp:25[m[K,
+                 from [01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/action_goal_handle.cpp:24[m[K:
+[01m[K/home/trueog/ros2_ws_ROB599/src/rclpy_ws/src/rclpy/rclpy/src/rclpy/utils.hpp:153:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_service_endpoint_info_array_t[m[K’ does not name a type; did you mean ‘[01m[Krmw_topic_endpoint_info_array_t[m[K’?
+  153 | convert_to_py_service_endpoint_info_list(const [01;31m[Krmw_service_endpoint_info_array_t[m[K * info_array);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[Krmw_topic_endpoint_info_array_t[m[K
+gmake[2]: *** [CMakeFiles/_rclpy_pybind11.dir/build.make:118: CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_goal_handle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/_rclpy_pybind11.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

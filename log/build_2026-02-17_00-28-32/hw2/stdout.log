@@ -1,0 +1,75 @@
+running egg_info
+creating ../../build/hw2/hw2.egg-info
+writing ../../build/hw2/hw2.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw2/hw2.egg-info/dependency_links.txt
+writing entry points to ../../build/hw2/hw2.egg-info/entry_points.txt
+writing requirements to ../../build/hw2/hw2.egg-info/requires.txt
+writing top-level names to ../../build/hw2/hw2.egg-info/top_level.txt
+writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+reading manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/trueog/ros2_ws_ROB599/build/hw2/build
+creating /home/trueog/ros2_ws_ROB599/build/hw2/build/lib
+creating /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+copying hw2/obstacle_avoidance.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+copying hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+copying hw2/test.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+copying hw2/__init__.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+copying hw2/apf_failed.py -> /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2
+running install
+running install_lib
+creating /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/obstacle_avoidance.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/test.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/__init__.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+copying /home/trueog/ros2_ws_ROB599/build/hw2/build/lib/hw2/apf_failed.py -> /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2
+byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/obstacle_avoidance.py to obstacle_avoidance.cpython-312.pyc
+byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/hw2_controller.py to hw2_controller.cpython-312.pyc
+byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/test.py to test.cpython-312.pyc
+byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2/apf_failed.py to apf_failed.cpython-312.pyc
+running install_data
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index/resource_index
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index/resource_index/packages
+copying resource/hw2 -> /home/trueog/ros2_ws_ROB599/install/hw2/share/ament_index/resource_index/packages
+copying package.xml -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/launch
+copying launch/hw2_stage.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/launch
+copying launch/controller.launch.py -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/launch
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+copying config/rviz/robot_ns.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+copying config/rviz/open.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+copying config/rviz/simple_inside.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+copying config/rviz/robot0.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+copying config/rviz/robot_ns_depth.rviz -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/config/rviz
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+copying world/open_j.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+copying world/building_world.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+copying world/simple_inside.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+copying world/hexagon.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+copying world/open.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+copying world/open_world.world -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+copying world/include/robots.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+copying world/include/map.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+copying world/include/pioneer2dx.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+copying world/include/box.inc -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/include
+creating /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+copying world/bitmaps/open_world.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+copying world/bitmaps/open.PNG -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+copying world/bitmaps/Basic.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+copying world/bitmaps/building_world.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+copying world/bitmaps/Hexagon.png -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+copying world/bitmaps/simple_inside.PNG -> /home/trueog/ros2_ws_ROB599/install/hw2/share/hw2/world/bitmaps
+running install_egg_info
+Copying ../../build/hw2/hw2.egg-info to /home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info
+running install_scripts
+Installing apf script to /home/trueog/ros2_ws_ROB599/install/hw2/lib/hw2
+Installing basic_controller script to /home/trueog/ros2_ws_ROB599/install/hw2/lib/hw2
+writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/hw2/install.log'

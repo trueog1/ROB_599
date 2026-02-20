@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (hw2) JobQueued: {'identifier': 'hw2', 'dependencies': OrderedDict()}
+[0.000507] (hw2) JobStarted: {'identifier': 'hw2'}
+[0.098873] (-) TimerEvent: {}
+[0.199285] (-) TimerEvent: {}
+[0.299714] (-) TimerEvent: {}
+[0.400110] (-) TimerEvent: {}
+[0.500452] (-) TimerEvent: {}
+[0.600778] (-) TimerEvent: {}
+[0.682042] (hw2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/hw2', 'build', '--build-base', '/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build', 'install', '--record', '/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/trueog/ros2_ws_ROB599/src/hw2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'trueog', 'ROS_PACKAGE_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2/lib:/home/trueog/ros2_ws_ROB599/install/stage/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/trueog', 'OLDPWD': '/home/trueog/ros2_ws_ROB599', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1926', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'trueog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/trueog/ros2_ws_ROB599/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trueog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/trueog/ros2_ws_ROB599/install/stage/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu24:@/tmp/.ICE-unix/1884,unix/Ubuntu24:/tmp/.ICE-unix/1884', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a23d401d_2e86_4908_a64b_c76d33a1b6a2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G19UI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.134', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/hw2:/home/trueog/ros2_ws_ROB599/install/hw1:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/install/hw2/lib/python3.12/site-packages:/home/trueog/ros2_ws_ROB599/build/hw1:/home/trueog/ros2_ws_ROB599/install/hw1/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/trueog/ros2_ws_ROB599/install/stage_ros2:/home/trueog/ros2_ws_ROB599/install/stage:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[0.701080] (-) TimerEvent: {}
+[0.802074] (-) TimerEvent: {}
+[0.902340] (-) TimerEvent: {}
+[1.004092] (-) TimerEvent: {}
+[1.013409] (hw2) StdoutLine: {'line': b'running egg_info\n'}
+[1.013728] (hw2) StdoutLine: {'line': b'creating build/hw2/hw2.egg-info\n'}
+[1.032603] (hw2) StdoutLine: {'line': b'writing build/hw2/hw2.egg-info/PKG-INFO\n'}
+[1.033334] (hw2) StdoutLine: {'line': b'writing dependency_links to build/hw2/hw2.egg-info/dependency_links.txt\n'}
+[1.033484] (hw2) StdoutLine: {'line': b'writing entry points to build/hw2/hw2.egg-info/entry_points.txt\n'}
+[1.033921] (hw2) StdoutLine: {'line': b'writing requirements to build/hw2/hw2.egg-info/requires.txt\n'}
+[1.034035] (hw2) StdoutLine: {'line': b'writing top-level names to build/hw2/hw2.egg-info/top_level.txt\n'}
+[1.034109] (hw2) StdoutLine: {'line': b"writing manifest file 'build/hw2/hw2.egg-info/SOURCES.txt'\n"}
+[1.078866] (hw2) StdoutLine: {'line': b"reading manifest file 'build/hw2/hw2.egg-info/SOURCES.txt'\n"}
+[1.079033] (hw2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.079083] (hw2) StdoutLine: {'line': b"writing manifest file 'build/hw2/hw2.egg-info/SOURCES.txt'\n"}
+[1.079130] (hw2) StdoutLine: {'line': b'running build\n'}
+[1.079175] (hw2) StdoutLine: {'line': b'running build_py\n'}
+[1.079218] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build\n'}
+[1.079261] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib\n'}
+[1.079304] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2\n'}
+[1.079347] (hw2) StdoutLine: {'line': b'copying hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2\n'}
+[1.079390] (hw2) StdoutLine: {'line': b'copying hw2/__init__.py -> /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2\n'}
+[1.079503] (hw2) StdoutLine: {'line': b'running install\n'}
+[1.083943] (hw2) StdoutLine: {'line': b'running install_lib\n'}
+[1.104165] (-) TimerEvent: {}
+[1.111064] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2\n'}
+[1.111282] (hw2) StdoutLine: {'line': b'copying /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2/hw2_controller.py -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2\n'}
+[1.111341] (hw2) StdoutLine: {'line': b'copying /home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/build/lib/hw2/__init__.py -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2\n'}
+[1.111392] (hw2) StdoutLine: {'line': b'byte-compiling /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2/hw2_controller.py to hw2_controller.cpython-312.pyc\n'}
+[1.113065] (hw2) StdoutLine: {'line': b'byte-compiling /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2/__init__.py to __init__.cpython-312.pyc\n'}
+[1.113505] (hw2) StdoutLine: {'line': b'running install_data\n'}
+[1.114703] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/share/ament_index\n'}
+[1.114848] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/share/ament_index/resource_index\n'}
+[1.114900] (hw2) StdoutLine: {'line': b'creating /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/share/ament_index/resource_index/packages\n'}
+[1.114947] (hw2) StdoutLine: {'line': b'copying resource/hw2 -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/share/ament_index/resource_index/packages\n'}
+[1.114992] (hw2) StdoutLine: {'line': b'copying package.xml -> /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/share/hw2\n'}
+[1.117199] (hw2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.138797] (hw2) StdoutLine: {'line': b'Copying build/hw2/hw2.egg-info to /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info\n'}
+[1.139750] (hw2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.205136] (-) TimerEvent: {}
+[1.266111] (hw2) StdoutLine: {'line': b'Installing basic_controller script to /home/trueog/ros2_ws_ROB599/src/hw2/install/hw2/lib/hw2\n'}
+[1.266482] (hw2) StdoutLine: {'line': b"writing list of installed files to '/home/trueog/ros2_ws_ROB599/src/hw2/build/hw2/install.log'\n"}
+[1.294056] (hw2) CommandEnded: {'returncode': 0}
+[1.306010] (-) TimerEvent: {}
+[1.312912] (hw2) JobEnded: {'identifier': 'hw2', 'rc': 0}
+[1.313991] (-) EventReactorShutdown: {}

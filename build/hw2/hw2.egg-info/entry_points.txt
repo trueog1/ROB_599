@@ -1,0 +1,3 @@
+[console_scripts]
+apf = hw2.obstacle_avoidance:main
+basic_controller = hw2.hw2_controller:main

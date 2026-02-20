@@ -1,0 +1,33 @@
+[0.859s] Invoking command in '/home/trueog/ros2_ws_ROB599/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/trueog/ros2_ws_ROB599/build/py_pubsub/build install --record /home/trueog/ros2_ws_ROB599/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.165s] running egg_info
+[1.165s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.184s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.184s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.184s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.184s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.185s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.242s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.242s] adding license file 'LICENSE'
+[1.243s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.243s] running build
+[1.245s] running build_py
+[1.245s] creating /home/trueog/ros2_ws_ROB599/build/py_pubsub/build
+[1.245s] creating /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib
+[1.245s] creating /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib/py_pubsub
+[1.245s] copying py_pubsub/__init__.py -> /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib/py_pubsub
+[1.245s] running install
+[1.249s] running install_lib
+[1.267s] creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.267s] copying /home/trueog/ros2_ws_ROB599/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.268s] byte-compiling /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[1.269s] running install_data
+[1.269s] creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index
+[1.269s] creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index/resource_index
+[1.269s] creating /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index/resource_index/packages
+[1.269s] copying resource/py_pubsub -> /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/ament_index/resource_index/packages
+[1.269s] copying package.xml -> /home/trueog/ros2_ws_ROB599/install/py_pubsub/share/py_pubsub
+[1.269s] running install_egg_info
+[1.287s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.288s] running install_scripts
+[1.433s] writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/py_pubsub/install.log'
+[1.462s] Invoked command in '/home/trueog/ros2_ws_ROB599/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/trueog/ros2_ws_ROB599/build/py_pubsub/build install --record /home/trueog/ros2_ws_ROB599/build/py_pubsub/install.log --single-version-externally-managed install_data

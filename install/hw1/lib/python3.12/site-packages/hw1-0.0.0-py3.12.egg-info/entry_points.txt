@@ -1,0 +1,2 @@
+[console_scripts]
+move_node = hw1.hw1_code:main

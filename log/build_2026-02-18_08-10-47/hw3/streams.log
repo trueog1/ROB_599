@@ -1,0 +1,26 @@
+[1.747s] Invoking command in '/home/trueog/ros2_ws_ROB599/src/hw3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/trueog/ros2_ws_ROB599/build/hw3/build install --record /home/trueog/ros2_ws_ROB599/build/hw3/install.log --single-version-externally-managed install_data
+[2.018s] running egg_info
+[2.035s] writing ../../build/hw3/hw3.egg-info/PKG-INFO
+[2.036s] writing dependency_links to ../../build/hw3/hw3.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/hw3/hw3.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/hw3/hw3.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/hw3/hw3.egg-info/top_level.txt
+[2.074s] reading manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[2.075s] adding license file 'LICENSE'
+[2.075s] writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[2.076s] running build
+[2.076s] running build_py
+[2.076s] copying hw3/mapping.py -> /home/trueog/ros2_ws_ROB599/build/hw3/build/lib/hw3
+[2.077s] running install
+[2.083s] running install_lib
+[2.100s] copying /home/trueog/ros2_ws_ROB599/build/hw3/build/lib/hw3/mapping.py -> /home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3
+[2.101s] byte-compiling /home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3/mapping.py to mapping.cpython-312.pyc
+[2.105s] running install_data
+[2.106s] running install_egg_info
+[2.127s] removing '/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info' (and everything under it)
+[2.131s] Copying ../../build/hw3/hw3.egg-info to /home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages/hw3-0.0.0-py3.12.egg-info
+[2.131s] running install_scripts
+[2.262s] Installing hw3_controller script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+[2.263s] Installing map script to /home/trueog/ros2_ws_ROB599/install/hw3/lib/hw3
+[2.264s] writing list of installed files to '/home/trueog/ros2_ws_ROB599/build/hw3/install.log'
+[2.294s] Invoked command in '/home/trueog/ros2_ws_ROB599/src/hw3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trueog/ros2_ws_ROB599/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trueog/ros2_ws_ROB599/install/hw3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/trueog/ros2_ws_ROB599/build/hw3/build install --record /home/trueog/ros2_ws_ROB599/build/hw3/install.log --single-version-externally-managed install_data

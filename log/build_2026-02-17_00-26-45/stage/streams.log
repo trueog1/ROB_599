@@ -1,0 +1,254 @@
+[0.018s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/trueog/ros2_ws_ROB599/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.202s] -- The CXX compiler identification is GNU 13.3.0
+[0.230s] -- Detecting C compiler ABI info
+[0.332s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.490s] -- Stage version 4.3.0
+[0.490s] -- Operating system is Linux
+[0.490s] -- Installing Libraries to /home/trueog/ros2_ws_ROB599/install/stage/lib
+[0.490s] -- Installing Plugins to /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3
+[0.491s] -- Build type RELEASE
+[0.491s] -- Checking for libtool
+[0.498s] -- Checking for required libraries...
+[0.518s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.533s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[0.560s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[0.566s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.721s] -- Found X11: /usr/include   
+[0.723s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.817s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.817s] -- Looking for gethostbyname
+[0.910s] -- Looking for gethostbyname - found
+[0.910s] -- Looking for connect
+[1.012s] -- Looking for connect - found
+[1.012s] -- Looking for remove
+[1.105s] -- Looking for remove - found
+[1.105s] -- Looking for shmat
+[1.197s] -- Looking for shmat - found
+[1.197s] -- Looking for IceConnectionNumber in ICE
+[1.304s] -- Looking for IceConnectionNumber in ICE - found
+[1.347s] -- Found FLTK: fltk_images;fltk_forms;fltk_gl;fltk  
+[1.349s] -- Checking for optional libraries...
+[1.350s] -- Installation path CMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage
+[1.351s] -- Configuring libstage
+[1.359s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.360s] -- Checking for one of the modules 'playercore>=2.1.0'
+[1.450s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[1.469s] -- Configuring done (1.4s)
+[1.523s] -- Generating done (0.0s)
+[1.524s] [33mCMake Warning:
+[1.524s]   Manually-specified variables were not used by the project:
+[1.525s] 
+[1.525s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.525s] 
+[1.525s] [0m
+[1.528s] -- Build files have been written to: /home/trueog/ros2_ws_ROB599/build/stage
+[1.537s] Invoked command in '/home/trueog/ros2_ws_ROB599/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/trueog/ros2_ws_ROB599/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/trueog/ros2_ws_ROB599/install/stage
+[1.538s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/trueog/ros2_ws_ROB599/build/stage -- -j4 -l4
+[1.591s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o[0m
+[1.591s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o[0m
+[1.593s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o[0m
+[1.601s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[2.713s] [  8%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[2.875s] [ 10%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o[0m
+[3.258s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o[0m
+[3.604s] [ 13%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[4.370s] [ 15%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o[0m
+[4.990s] [ 16%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o[0m
+[5.110s] [ 18%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o[0m
+[6.009s] [ 20%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o[0m
+[6.721s] [ 22%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o[0m
+[6.840s] [ 23%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o[0m
+[7.303s] [ 25%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o[0m
+[7.504s] [ 27%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o[0m
+[7.912s] [ 28%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o[0m
+[7.916s] [ 30%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o[0m
+[8.671s] [ 32%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o[0m
+[8.892s] [ 33%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o[0m
+[9.124s] [ 35%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o[0m
+[9.340s] [ 37%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o[0m
+[10.111s] [ 38%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o[0m
+[10.289s] [ 40%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[10.294s] [ 42%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o[0m
+[10.547s] [ 44%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o[0m
+[11.228s] [ 45%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o[0m
+[11.559s] [ 47%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o[0m
+[11.724s] [ 49%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o[0m
+[11.902s] [ 50%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o[0m
+[13.034s] [ 52%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o[0m
+[14.011s] [ 54%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[14.147s] [ 55%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o[0m
+[15.417s] [ 57%] [32m[1mLinking CXX shared library libstage.so[0m
+[15.542s] [ 57%] Built target stage
+[15.563s] [ 59%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o[0m
+[15.567s] [ 61%] [32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o[0m
+[15.570s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o[0m
+[15.581s] [ 64%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[16.498s] [ 66%] [32m[1mLinking CXX shared module fasr.so[0m
+[16.637s] [ 67%] [32m[1mLinking CXX shared module sink.so[0m
+[16.666s] [ 67%] Built target fasr
+[16.717s] [ 69%] [32m[1mLinking CXX shared module source.so[0m
+[16.724s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o[0m
+[16.761s] [ 71%] Built target sink
+[16.787s] [ 72%] [32m[1mLinking CXX executable stage[0m
+[16.803s] [ 74%] [32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o[0m
+[16.821s] [ 74%] Built target source
+[16.850s] [ 76%] [32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o[0m
+[16.941s] [ 76%] Built target stagebinary
+[16.960s] [ 77%] [32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o[0m
+[17.797s] [ 79%] [32m[1mLinking CXX shared module rasterize.so[0m
+[17.867s] [ 81%] [32m[1mLinking CXX shared module wander.so[0m
+[17.894s] [ 81%] Built target rasterize
+[17.919s] [ 83%] [32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o[0m
+[17.963s] [ 84%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[17.986s] [ 86%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[18.020s] [ 86%] Built target wander
+[18.058s] [ 88%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o[0m
+[18.086s] [ 88%] Built target lasernoise
+[18.135s] [ 88%] Built target pioneer_flocking
+[18.146s] [ 89%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o[0m
+[18.162s] [ 91%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o[0m
+[18.908s] [ 93%] [32m[1mLinking CXX shared module dynamic.so[0m
+[19.094s] [ 93%] Built target dynamic
+[19.117s] [ 94%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o[0m
+[19.212s] [ 96%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[19.285s] [ 98%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[19.398s] [ 98%] Built target expand_pioneer
+[19.403s] [ 98%] Built target expand_swarm
+[19.826s] [100%] [32m[1mLinking CXX shared module fasr2.so[0m
+[19.907s] [100%] Built target fasr2
+[19.925s] Invoked command in '/home/trueog/ros2_ws_ROB599/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/trueog/ros2_ws_ROB599/build/stage -- -j4 -l4
+[19.935s] Invoking command in '/home/trueog/ros2_ws_ROB599/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/trueog/ros2_ws_ROB599/build/stage
+[19.942s] -- Install configuration: "RELEASE"
+[19.943s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/pkgconfig/stage.pc
+[19.943s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/cmake/Stage/stage-config.cmake
+[19.943s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/cmake/Stage/stage-config-version.cmake
+[19.943s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/bin/stage
+[19.943s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/bin/stage" to ""
+[19.944s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/libstage.so.4.3.0
+[19.944s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/libstage.so
+[19.944s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/include/Stage-4.3/stage.hh
+[19.945s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr.so
+[19.945s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr.so" to ""
+[19.945s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/sink.so
+[19.945s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/sink.so" to ""
+[19.946s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/source.so
+[19.946s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/source.so" to ""
+[19.946s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/wander.so
+[19.946s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/wander.so" to ""
+[19.946s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/pioneer_flocking.so
+[19.946s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[19.946s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/rasterize.so
+[19.947s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/rasterize.so" to ""
+[19.947s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/lasernoise.so
+[19.947s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/lasernoise.so" to ""
+[19.947s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/dynamic.so
+[19.947s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/dynamic.so" to ""
+[19.947s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr2.so
+[19.948s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/fasr2.so" to ""
+[19.948s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/blue.png
+[19.948s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/death.png
+[19.948s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/green.png
+[19.948s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/logo.png
+[19.948s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/mains.png
+[19.948s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/mainspower.png
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/question_mark.png
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/red.png
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/stagelogo.png
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/stall-old.png
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/stall.png
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/assets/rgb.txt
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/rgb.txt
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/amcl-sonar.cfg
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/autolab.cfg
+[19.949s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/camera.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/everything.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/lsp_test.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/mbicp.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/nd.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/roomba.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/simple.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/test.cfg
+[19.950s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/uoa_robotics_lab.cfg
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/vfh.cfg
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wavefront-remote.cfg
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wavefront.cfg
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi.cfg
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/SFU.world
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/autolab.world
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/camera.world
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/circuit.world
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/everything.world
+[19.951s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/fasr.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/fasr2.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/fasr_plan.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/large.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/lsp_test.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/mbicp.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer_flocking.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer_follow.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer_walle.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/roomba.world
+[19.952s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/sensor_noise_demo.world
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/sensor_noise_module_demo.world
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/simple.world
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/uoa_robotics_lab.world
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi.world
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/beacons.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/chatterbox.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/hokuyo.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/irobot.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/map.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/objects.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pantilt.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/pioneer.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/sick.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/ubot.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[19.953s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/walle.inc
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/cfggen.sh
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/test.sh
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/worldgen.sh
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_swarm.so
+[19.954s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_swarm.so" to ""
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_pioneer.so
+[19.954s] -- Set non-toolchain portion of runtime path of "/home/trueog/ros2_ws_ROB599/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/889_05.png
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/autolab.png
+[19.954s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/cave.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/cave_compact.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/cave_filled.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/frieburg.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/ghost.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/hospital.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/hospital_section.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/human_outline.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/mbicp.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/rink.png
+[19.955s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/sal2.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/simple_rooms.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/space_invader.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/submarine.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/submarine_small.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/table.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/commando.world
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/hosp_wifi.world
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi.world
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_itu.world
+[19.956s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_logdistance.world
+[19.957s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_ray.world
+[19.957s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/wifi_simple.world
+[19.957s] -- Installing: /home/trueog/ros2_ws_ROB599/install/stage/share/stage/worlds/wifi/map.inc
+[19.961s] Invoked command in '/home/trueog/ros2_ws_ROB599/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/trueog/ros2_ws_ROB599/build/stage
