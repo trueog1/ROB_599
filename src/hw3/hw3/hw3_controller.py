@@ -13,7 +13,7 @@ import yaml
 import os
 
 class Controller(Node):
-    def __init__(self):
+    def __init__(self, path):
         super().__init__('waypoint_controller')
 
 
