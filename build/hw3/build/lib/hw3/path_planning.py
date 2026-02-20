@@ -37,7 +37,7 @@ class PathPlan(Node):
         self.inflate_grid = np.zeros((self.grid_x, self.grid_y))
         self.array = np.zeros((self.grid_x, self.grid_y))
         self.start = (0, 0)
-        self.goal = (3, 6)
+        self.goal = (6, 0)
         self.waypoints = []
 
         self.msg = OccupancyGrid()

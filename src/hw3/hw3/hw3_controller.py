@@ -13,11 +13,11 @@ import yaml
 import os
 
 class Controller(Node):
-    def __init__(self, path):
+    def __init__(self):
         super().__init__('waypoint_controller')
 
 
-        filename = 'src/hw3/hw3/waypoints3.yaml'
+        filename = 'src/hw3/hw3/waypoint.yaml'
         script_dir = os.getcwd()
         self.file_path = os.path.join(script_dir, filename)
 
